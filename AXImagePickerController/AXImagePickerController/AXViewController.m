@@ -7,10 +7,10 @@
 //
 
 #import "AXViewController.h"
-#import "AXPracticalHUD.h"
 #import "AXPreviewController.h"
-#import "UIToolbar+Separator_hidden.h"
-#import "UINavigationBar+Separator_hidden.h"
+#import <AXPracticalHUD/AXPracticalHUD.h>
+#import <AXExtensions/UIToolbar+Separator_hidden.h>
+#import <AXExtensions/UINavigationBar+Separator_hidden.h>
 
 #ifndef kCFCoreFoundationVersionNumber_iOS_8_0
 #define kCFCoreFoundationVersionNumber_iOS_8_0 1140.1

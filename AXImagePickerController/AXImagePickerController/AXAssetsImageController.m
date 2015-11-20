@@ -7,8 +7,8 @@
 //
 
 #import "AXAssetsImageController.h"
-#import "PHAsset+Image.h"
-#import "ALAsset+Image.h"
+#import <AXExtensions/PHAsset+Image.h>
+#import <AXExtensions/ALAsset+Image.h>
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated"
 @implementation AXAssetsImageController

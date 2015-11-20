@@ -8,9 +8,9 @@
 
 #import "AXPreviewController.h"
 #import "AXImagePickerController.h"
-#import "AXPracticalHUD.h"
-#import "UINavigationBar+Separator_hidden.h"
-#import "UIToolbar+Separator_hidden.h"
+#import <AXPracticalHUD/AXPracticalHUD.h>
+#import <AXExtensions/UINavigationBar+Separator_hidden.h>
+#import <AXExtensions/UIToolbar+Separator_hidden.h>
 
 @interface AXPreviewController()<UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 {
