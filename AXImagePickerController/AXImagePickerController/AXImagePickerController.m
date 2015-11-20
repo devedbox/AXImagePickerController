@@ -13,8 +13,6 @@
 #ifndef kCFCoreFoundationVersionNumber_iOS_8_0
 #define kCFCoreFoundationVersionNumber_iOS_8_0 1140.1
 #endif
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated"
 @interface AXImagePickerController()
 {
     AXAlbumViewController *_albumsViewController;
@@ -256,4 +254,3 @@
     }
 }
 @end
-#pragma clang diagnostic pop

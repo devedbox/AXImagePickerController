@@ -21,8 +21,6 @@
 #ifndef kAXPhotoCollectionViewSize
 #define kAXPhotoCollectionViewSize (CGSizeMake((self.view.bounds.size.width - kAXPhotoCollectionViewCellPadding * 4) / 3, (self.view.bounds.size.width - kAXPhotoCollectionViewCellPadding * 2) / 3))
 #endif
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated"
 @interface AXPhotoViewController()
 {
     UICollectionView *_photoView;
@@ -231,4 +229,3 @@
     }
 }
 @end
-#pragma clang diagnostic pop

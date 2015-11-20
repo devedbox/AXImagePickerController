@@ -13,8 +13,6 @@
 #ifndef kCFCoreFoundationVersionNumber_iOS_8_0
 #define kCFCoreFoundationVersionNumber_iOS_8_0 1140.1
 #endif
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated"
 @interface AXAlbumViewController()
 {
     ALAssetsLibrary *_albumLibrary;
@@ -239,4 +237,3 @@ static NSString *kAXAlbumTableViewCellReuseIdentifier = @"__ax_album_tableViewCe
     }
 }
 @end
-#pragma clang diagnostic pop
