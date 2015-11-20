@@ -132,6 +132,7 @@ s.frameworks = "UIKit", "Foundation"
 s.requires_arc = true
 
 # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-s.dependency "AXExtensions", "AXPracticalHUD"
+s.dependency "AXExtensions"
+s.dependency "AXPracticalHUD"
 
 end
