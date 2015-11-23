@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AXImagePickerController.h"
 
 @interface ViewController ()
 
@@ -23,5 +24,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+#pragma mark - Actions
+- (IBAction)selectImages:(id)sender {
+    AXImagePickerController *imagePickerController = [[AXImagePickerController alloc] init];
+    [self presentViewController:imagePickerController animated:YES completion:nil];
+}
 @end

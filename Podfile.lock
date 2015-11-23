@@ -1,13 +1,13 @@
 PODS:
-  - AXExtensions (1.0.0)
-  - AXPracticalHUD (1.0.3)
+  - AXExtensions (1.0.4)
+  - AXPracticalHUD (1.0.4)
 
 DEPENDENCIES:
   - AXExtensions
   - AXPracticalHUD
 
 SPEC CHECKSUMS:
-  AXExtensions: 50fcb0126698eb2074f85dd3f8672345fef398a9
-  AXPracticalHUD: afcd85f9d569060b2b1d4b08a7d89bfc79b18a71
+  AXExtensions: d8cd53dcd332b001e5ec5773e50b8dfe8d92c0db
+  AXPracticalHUD: 6b15b98a561615d806aaa4033a20460cc9d3e2f5
 
 COCOAPODS: 0.39.0
