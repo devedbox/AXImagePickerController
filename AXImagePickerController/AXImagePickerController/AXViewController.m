@@ -41,7 +41,7 @@
     [navigationController.navigationBar setSeparatorHidden:NO];
     [navigationController.toolbar setSeparatorHidden:NO];
     if (navigationController.navigationBar.titleTextAttributes == nil) {
-        [navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:self.selectionTintColor,NSFontAttributeName:[UIFont boldSystemFontOfSize:19]}];
+        [navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:self.selectionTintColor?self.selectionTintColor:[UIColor blackColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:19]}];
     }
     [self setTitle:self.title];
     [self updateSelectionInfo];
@@ -121,7 +121,7 @@
 - (void)setSelectionTintColor:(UIColor *)selectionTintColor {
     _selectionTintColor = selectionTintColor;
     if (self.navigationController.navigationBar.titleTextAttributes == nil) {
-        [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:selectionTintColor,NSFontAttributeName:[UIFont boldSystemFontOfSize:19]}];
+        [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:selectionTintColor?selectionTintColor:[UIColor blackColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:19]}];
     }
     self.navigationController.navigationBar.tintColor = self.selectionTintColor;
     self.navigationController.toolbar.tintColor = self.selectionTintColor;

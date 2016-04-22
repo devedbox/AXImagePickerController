@@ -55,7 +55,7 @@
     [self.navigationController.toolbar setSeparatorHidden:YES];
     
     if (self.navigationController.navigationBar.titleTextAttributes == nil) {
-        [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:self.selectionTintColor,NSFontAttributeName:[UIFont boldSystemFontOfSize:19]}];
+        [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:self.selectionTintColor?self.selectionTintColor:[UIColor blackColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:19]}];
     }
 }
 
