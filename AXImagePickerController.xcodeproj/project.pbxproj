@@ -56,6 +56,7 @@
 		01ABFFAD1BFF15CA00EEDF8C /* AXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXViewController.h; sourceTree = "<group>"; };
 		01ABFFAE1BFF15CA00EEDF8C /* AXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXViewController.m; sourceTree = "<group>"; };
 		01C0C5F81C03194700E0BF99 /* AXImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AXImagePickerController.bundle; sourceTree = "<group>"; };
+		01CF5C5C1CC9FBF6009B0380 /* AXImagePickerControllerMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXImagePickerControllerMacro.h; sourceTree = "<group>"; };
 		3FD35434EF2F4F575FB79F30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E3A2C74E411C72B7BBD439 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		685A6A980E5D7C54D9781D0A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 				01ABFFA51BFF15CA00EEDF8C /* AXPhotoCollectionViewCell.h */,
 				01ABFFA61BFF15CA00EEDF8C /* AXPhotoCollectionViewCell.m */,
 				01C0C5F81C03194700E0BF99 /* AXImagePickerController.bundle */,
+				01CF5C5C1CC9FBF6009B0380 /* AXImagePickerControllerMacro.h */,
 			);
 			path = AXImagePickerController;
 			sourceTree = "<group>";
