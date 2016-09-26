@@ -6,18 +6,18 @@
 //  Copyright © 2015 ai. All rights reserved.
 //
 
-#import "AXViewController.h"
-#import "AXPreviewController.h"
+#import "AXImagePickerViewController.h"
+#import "AXImagePickerPreviewController.h"
 #import "AXImagePickerControllerMacro.h"
 #import <AXExtensions/UIToolbar+Separator_hidden.h>
 #import <AXExtensions/UINavigationBar+Separator_hidden.h>
 
-@interface AXViewController()
+@interface AXImagePickerViewController()
 /// Background effect view
 @property(strong, nonatomic) UIView *backgroundView;
 @end
 
-@implementation AXViewController
+@implementation AXImagePickerViewController
 @synthesize selectionTintColor = _selectionTintColor;
 #pragma mark - Life cycle
 - (void)viewDidLoad {
@@ -152,7 +152,7 @@
     if (previewEnabled) {
         AXPracticalHUD *hud = [AXPracticalHUD showHUDInView:self.view animated:YES];
         hud.translucent = YES;
-        AXPreviewController *previewController = [AXPreviewController defaultController];
+        AXImagePickerPreviewController *previewController = [AXImagePickerPreviewController defaultController];
         previewController.assets = imagePickerController.selectedAssets;
         [hud hideAnimated:YES
                afterDelay:1.0

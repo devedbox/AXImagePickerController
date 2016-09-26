@@ -19,9 +19,9 @@
 		01ABFFB21BFF15CA00EEDF8C /* AXImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFA41BFF15CA00EEDF8C /* AXImagePickerController.m */; };
 		01ABFFB31BFF15CA00EEDF8C /* AXPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFA61BFF15CA00EEDF8C /* AXPhotoCollectionViewCell.m */; };
 		01ABFFB41BFF15CA00EEDF8C /* AXPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFA81BFF15CA00EEDF8C /* AXPhotoViewController.m */; };
-		01ABFFB51BFF15CA00EEDF8C /* AXPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFAA1BFF15CA00EEDF8C /* AXPreviewController.m */; };
+		01ABFFB51BFF15CA00EEDF8C /* AXImagePickerPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFAA1BFF15CA00EEDF8C /* AXImagePickerPreviewController.m */; };
 		01ABFFB61BFF15CA00EEDF8C /* AXPreviewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFAC1BFF15CA00EEDF8C /* AXPreviewImageController.m */; };
-		01ABFFB71BFF15CA00EEDF8C /* AXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFAE1BFF15CA00EEDF8C /* AXViewController.m */; };
+		01ABFFB71BFF15CA00EEDF8C /* AXImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFAE1BFF15CA00EEDF8C /* AXImagePickerViewController.m */; };
 		01C0C5F91C03194700E0BF99 /* AXImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01C0C5F81C03194700E0BF99 /* AXImagePickerController.bundle */; };
 		FA88E6F596DA29B68855B031 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD35434EF2F4F575FB79F30 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -49,12 +49,12 @@
 		01ABFFA61BFF15CA00EEDF8C /* AXPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		01ABFFA71BFF15CA00EEDF8C /* AXPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPhotoViewController.h; sourceTree = "<group>"; };
 		01ABFFA81BFF15CA00EEDF8C /* AXPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPhotoViewController.m; sourceTree = "<group>"; };
-		01ABFFA91BFF15CA00EEDF8C /* AXPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPreviewController.h; sourceTree = "<group>"; };
-		01ABFFAA1BFF15CA00EEDF8C /* AXPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPreviewController.m; sourceTree = "<group>"; };
+		01ABFFA91BFF15CA00EEDF8C /* AXImagePickerPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXImagePickerPreviewController.h; sourceTree = "<group>"; };
+		01ABFFAA1BFF15CA00EEDF8C /* AXImagePickerPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXImagePickerPreviewController.m; sourceTree = "<group>"; };
 		01ABFFAB1BFF15CA00EEDF8C /* AXPreviewImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPreviewImageController.h; sourceTree = "<group>"; };
 		01ABFFAC1BFF15CA00EEDF8C /* AXPreviewImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPreviewImageController.m; sourceTree = "<group>"; };
-		01ABFFAD1BFF15CA00EEDF8C /* AXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXViewController.h; sourceTree = "<group>"; };
-		01ABFFAE1BFF15CA00EEDF8C /* AXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXViewController.m; sourceTree = "<group>"; };
+		01ABFFAD1BFF15CA00EEDF8C /* AXImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXImagePickerViewController.h; sourceTree = "<group>"; };
+		01ABFFAE1BFF15CA00EEDF8C /* AXImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXImagePickerViewController.m; sourceTree = "<group>"; };
 		01C0C5F81C03194700E0BF99 /* AXImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AXImagePickerController.bundle; sourceTree = "<group>"; };
 		01CF5C5C1CC9FBF6009B0380 /* AXImagePickerControllerMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXImagePickerControllerMacro.h; sourceTree = "<group>"; };
 		3FD35434EF2F4F575FB79F30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,10 +120,10 @@
 		01ABFF9C1BFF15CA00EEDF8C /* AXImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				01ABFFAD1BFF15CA00EEDF8C /* AXViewController.h */,
-				01ABFFAE1BFF15CA00EEDF8C /* AXViewController.m */,
-				01ABFFA91BFF15CA00EEDF8C /* AXPreviewController.h */,
-				01ABFFAA1BFF15CA00EEDF8C /* AXPreviewController.m */,
+				01ABFFAD1BFF15CA00EEDF8C /* AXImagePickerViewController.h */,
+				01ABFFAE1BFF15CA00EEDF8C /* AXImagePickerViewController.m */,
+				01ABFFA91BFF15CA00EEDF8C /* AXImagePickerPreviewController.h */,
+				01ABFFAA1BFF15CA00EEDF8C /* AXImagePickerPreviewController.m */,
 				01ABFF9D1BFF15CA00EEDF8C /* AXAlbumTableViewCell.h */,
 				01ABFF9E1BFF15CA00EEDF8C /* AXAlbumTableViewCell.m */,
 				01ABFFA71BFF15CA00EEDF8C /* AXPhotoViewController.h */,
@@ -195,6 +195,7 @@
 				TargetAttributes = {
 					01ABFF811BFF152D00EEDF8C = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = TKA48YVS5T;
 					};
 				};
 			};
@@ -284,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01ABFFB31BFF15CA00EEDF8C /* AXPhotoCollectionViewCell.m in Sources */,
-				01ABFFB71BFF15CA00EEDF8C /* AXViewController.m in Sources */,
+				01ABFFB71BFF15CA00EEDF8C /* AXImagePickerViewController.m in Sources */,
 				01ABFFB41BFF15CA00EEDF8C /* AXPhotoViewController.m in Sources */,
 				01ABFF8D1BFF152D00EEDF8C /* ViewController.m in Sources */,
 				01ABFFB11BFF15CA00EEDF8C /* AXAssetsImageController.m in Sources */,
@@ -294,7 +295,7 @@
 				01ABFFAF1BFF15CA00EEDF8C /* AXAlbumTableViewCell.m in Sources */,
 				01ABFF871BFF152D00EEDF8C /* main.m in Sources */,
 				01ABFFB21BFF15CA00EEDF8C /* AXImagePickerController.m in Sources */,
-				01ABFFB51BFF15CA00EEDF8C /* AXPreviewController.m in Sources */,
+				01ABFFB51BFF15CA00EEDF8C /* AXImagePickerPreviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +406,7 @@
 			baseConfigurationReference = 56E3A2C74E411C72B7BBD439 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKA48YVS5T;
 				INFOPLIST_FILE = AXImagePickerController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -418,6 +420,7 @@
 			baseConfigurationReference = 685A6A980E5D7C54D9781D0A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKA48YVS5T;
 				INFOPLIST_FILE = AXImagePickerController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
