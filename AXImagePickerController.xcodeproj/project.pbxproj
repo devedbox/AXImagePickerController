@@ -23,7 +23,7 @@
 		01ABFFB61BFF15CA00EEDF8C /* AXPreviewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFAC1BFF15CA00EEDF8C /* AXPreviewImageController.m */; };
 		01ABFFB71BFF15CA00EEDF8C /* AXImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABFFAE1BFF15CA00EEDF8C /* AXImagePickerViewController.m */; };
 		01C0C5F91C03194700E0BF99 /* AXImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01C0C5F81C03194700E0BF99 /* AXImagePickerController.bundle */; };
-		FA88E6F596DA29B68855B031 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD35434EF2F4F575FB79F30 /* libPods.a */; };
+		BF67CC5BA8070A1174587A31 /* libPods-AXImagePickerController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 147BB82B71169A7393DCE745 /* libPods-AXImagePickerController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,9 +57,9 @@
 		01ABFFAE1BFF15CA00EEDF8C /* AXImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXImagePickerViewController.m; sourceTree = "<group>"; };
 		01C0C5F81C03194700E0BF99 /* AXImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AXImagePickerController.bundle; sourceTree = "<group>"; };
 		01CF5C5C1CC9FBF6009B0380 /* AXImagePickerControllerMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXImagePickerControllerMacro.h; sourceTree = "<group>"; };
-		3FD35434EF2F4F575FB79F30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		56E3A2C74E411C72B7BBD439 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		685A6A980E5D7C54D9781D0A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		147BB82B71169A7393DCE745 /* libPods-AXImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AXImagePickerController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D97B63A21110FA293F0C8C8 /* Pods-AXImagePickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXImagePickerController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXImagePickerController/Pods-AXImagePickerController.debug.xcconfig"; sourceTree = "<group>"; };
+		9872EEA0E3421CF45BBD4703 /* Pods-AXImagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXImagePickerController.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXImagePickerController/Pods-AXImagePickerController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA88E6F596DA29B68855B031 /* libPods.a in Frameworks */,
+				BF67CC5BA8070A1174587A31 /* libPods-AXImagePickerController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +79,8 @@
 			children = (
 				01ABFF841BFF152D00EEDF8C /* AXImagePickerController */,
 				01ABFF831BFF152D00EEDF8C /* Products */,
-				EAC6485AF3A3540FC778A32F /* Pods */,
-				DE357E9E3649314E875889CF /* Frameworks */,
+				A0E4965D6DE8DAAE6CB637F6 /* Pods */,
+				FA11B6F54E82C26F88E20860 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,21 +144,21 @@
 			path = AXImagePickerController;
 			sourceTree = "<group>";
 		};
-		DE357E9E3649314E875889CF /* Frameworks */ = {
+		A0E4965D6DE8DAAE6CB637F6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3FD35434EF2F4F575FB79F30 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EAC6485AF3A3540FC778A32F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				56E3A2C74E411C72B7BBD439 /* Pods.debug.xcconfig */,
-				685A6A980E5D7C54D9781D0A /* Pods.release.xcconfig */,
+				6D97B63A21110FA293F0C8C8 /* Pods-AXImagePickerController.debug.xcconfig */,
+				9872EEA0E3421CF45BBD4703 /* Pods-AXImagePickerController.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA11B6F54E82C26F88E20860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147BB82B71169A7393DCE745 /* libPods-AXImagePickerController.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,12 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01ABFF991BFF152D00EEDF8C /* Build configuration list for PBXNativeTarget "AXImagePickerController" */;
 			buildPhases = (
-				9AD7E37BFF1DE5C05AC135BC /* Check Pods Manifest.lock */,
+				ED27DD92C41BF278B5537F86 /* [CP] Check Pods Manifest.lock */,
 				01ABFF7E1BFF152D00EEDF8C /* Sources */,
 				01ABFF7F1BFF152D00EEDF8C /* Frameworks */,
 				01ABFF801BFF152D00EEDF8C /* Resources */,
-				8275B2396DB02151E08A08F8 /* Embed Pods Frameworks */,
-				6EA6CC0CA0E9ABA74804DBBE /* Copy Pods Resources */,
+				F950276D7734B2D5D22C50CD /* [CP] Embed Pods Frameworks */,
+				65D082338C9695056A8C488C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,49 +232,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6EA6CC0CA0E9ABA74804DBBE /* Copy Pods Resources */ = {
+		65D082338C9695056A8C488C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXImagePickerController/Pods-AXImagePickerController-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8275B2396DB02151E08A08F8 /* Embed Pods Frameworks */ = {
+		ED27DD92C41BF278B5537F86 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9AD7E37BFF1DE5C05AC135BC /* Check Pods Manifest.lock */ = {
+		F950276D7734B2D5D22C50CD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXImagePickerController/Pods-AXImagePickerController-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -403,7 +403,7 @@
 		};
 		01ABFF9A1BFF152D00EEDF8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56E3A2C74E411C72B7BBD439 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 6D97B63A21110FA293F0C8C8 /* Pods-AXImagePickerController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TKA48YVS5T;
@@ -417,7 +417,7 @@
 		};
 		01ABFF9B1BFF152D00EEDF8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 685A6A980E5D7C54D9781D0A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 9872EEA0E3421CF45BBD4703 /* Pods-AXImagePickerController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TKA48YVS5T;

@@ -1,6 +1,8 @@
 PODS:
   - AXExtensions (1.0.4)
-  - AXPracticalHUD (1.0.4)
+  - AXIndicatorView (0.0.1)
+  - AXPracticalHUD (1.1.0):
+    - AXIndicatorView
 
 DEPENDENCIES:
   - AXExtensions
@@ -8,6 +10,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AXExtensions: d8cd53dcd332b001e5ec5773e50b8dfe8d92c0db
-  AXPracticalHUD: 6b15b98a561615d806aaa4033a20460cc9d3e2f5
+  AXIndicatorView: e53bd5685e9c8895075a0ad04311841eb75b048c
+  AXPracticalHUD: 50d96645be97b5c68a121d3a59bb9b45b5983612
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 8c6413487dba1c4e8a98c6763b7d1f65d4a616f3
+
+COCOAPODS: 1.1.0.beta.2

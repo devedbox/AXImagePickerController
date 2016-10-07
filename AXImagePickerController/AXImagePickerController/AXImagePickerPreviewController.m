@@ -172,18 +172,18 @@
 - (void)sendItem:(UIBarButtonItem *)sender {
     AXImagePickerController *imagePickerController = self.imagePickerController;
     AXPracticalHUD *hud = [AXPracticalHUD showHUDInView:self.view animated:YES];
-    hud.translucent = YES;
+    hud.contentView.translucent = YES;
     id<AXImagePickerControllerDelegate> delegate = imagePickerController.delegate;
     NSArray *selectedImages = imagePickerController.selectedImages;
     if (!delegate) {
-        [hud hideAnimated:YES];
+        [hud hide:YES];
         return;
     }
     if (!selectedImages) {
-        [hud hideAnimated:YES];
+        [hud hide:YES];
         return;
     }
-    [hud hideAnimated:YES
+    [hud hide:YES
            afterDelay:1.0
            completion:^{
                [self dismissViewControllerAnimated:YES
